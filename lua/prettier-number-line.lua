@@ -1,10 +1,7 @@
 local M = {}
-local o = - vim.o
+local o = vim.o
 M.setup = function(args)
-	if args.line_number_mode == "default" then
-		o.nu = true
-		o.signcolumn = "yes"
-	elseif args.line_number_mode == "current" then
+	if args.line_number_mode == "current" then
 		o.nu = true
 		o.signcolumn = "number"
         vim.cmd([[hi! LineNr guifg=bg]])
