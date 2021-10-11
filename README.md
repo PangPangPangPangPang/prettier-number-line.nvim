@@ -1,8 +1,10 @@
 # prettier-number-line.nvim
 little plugin to make neovim number line prettier.(Maybe?)
+
 **Requires neovim 0.5.0+**
 
 ## Install
+
 * packer.nvim
 ```lua
 use({
@@ -28,7 +30,7 @@ M.defaultConfig = {
 ```
 
 ## Preview
-* mode = virtual
+### mode = virtual
 ![preview](https://p16.topbuzzcdn.com/origin/tos-alisg-i-0000/61b228f87fec4cc28578e1be8dcdb233)
-* mode = current
+### mode = current
 ![preview](https://p16.topbuzzcdn.com/origin/tos-alisg-i-0000/026e6456f44b4b1893f647bacfb94195)
