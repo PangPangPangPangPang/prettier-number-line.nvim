@@ -9,9 +9,21 @@ use({
     "PangPangPangPangPang/prettier-number-line.nvim",
     config = function ()
         -- current or virtual
-        require('prettier-number-line').setup({line_number_mode = 'virtual'})
+        require('prettier-number-line').setup({mode = 'virtual'})
     end
 })
+
+```
+
+## Config
+```lua
+M.defaultConfig = {
+	mode = "virtual",
+	virt_text_pos = "eol", -- :h nvim_buf_set_extmark
+	virt_icon = "﬌ ",
+	highlight = "CursorLineNr",
+	exclusive_filetype = {},
+}
 
 ```
 
