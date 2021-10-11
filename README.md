@@ -28,7 +28,7 @@ M.defaultConfig = {
 ```
 
 ## Preview
-### virtual
+* mode = virtual
 ![preview](https://p16.topbuzzcdn.com/origin/tos-alisg-i-0000/61b228f87fec4cc28578e1be8dcdb233)
-### current
+* mode = current
 ![preview](https://p16.topbuzzcdn.com/origin/tos-alisg-i-0000/026e6456f44b4b1893f647bacfb94195)
