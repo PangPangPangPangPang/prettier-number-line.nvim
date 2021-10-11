@@ -1,0 +1,1 @@
+# prettier-number-line.nvim
