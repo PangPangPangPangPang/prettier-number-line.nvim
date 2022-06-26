@@ -21,5 +21,9 @@ M.setup = function(args)
 		o.signcolumn = "yes"
 		require("prettier-number-line.virtual")
 	end
+
+    if c.show_col then
+		require("prettier-number-line.virtual_col")
+    end
 end
 return M
