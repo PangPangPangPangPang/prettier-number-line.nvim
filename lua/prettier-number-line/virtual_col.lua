@@ -16,9 +16,9 @@ function highlight_col()
 	local namespace = get_namespace()
 	api.nvim_buf_clear_namespace(0, namespace, 0, -1)
 	api.nvim_buf_set_extmark(0, namespace, line - 1, -1, {
-		virt_text = { { string.format("%d", col), c.highlight } },
+		virt_text = { { string.format("%s%d", c.col_virt_icon, col), c.col_highlight } },
 		virt_text_pos = "right_align",
-		hl_mode = "combine",
+		hl_mode = "blend",
 	})
 end
 

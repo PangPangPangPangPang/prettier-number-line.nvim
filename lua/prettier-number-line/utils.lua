@@ -22,6 +22,8 @@ M.defaultConfig = {
 	virt_text_pos = "eol",
 	virt_icon = "﬌ ",
 	highlight = "CursorLineNr",
+	col_highlight = "CursorLineNr",
+	col_virt_icon = "﬌ ",
 	exclusive_filetype = {},
 }
 
